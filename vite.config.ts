@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: "/React_Vite_CICD_Github/",
   plugins: [
     react(),
     mode === 'development' &&
