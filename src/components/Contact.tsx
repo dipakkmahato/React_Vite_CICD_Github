@@ -54,7 +54,7 @@ export const Contact = () => {
 
     try {
       // Initialize EmailJS with your public key
-      emailjs.init('pazpmt228GZeuKNTv');
+      emailjs.init('nAjrTJUns03cSidCO');
 
       // Send email using your service ID and template ID
       await emailjs.send(
